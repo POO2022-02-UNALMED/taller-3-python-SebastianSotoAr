@@ -70,3 +70,7 @@ class TV:
     @staticmethod
     def setNumTV(num):
         TV._numTV = num
+
+    @staticmethod
+    def getNumTV():
+        return TV._numTV
