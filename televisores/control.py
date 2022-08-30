@@ -31,8 +31,8 @@ class Control:
         self._tv = tv
         self._tv.setControl(self)
 
-    def setTV(self, tv):
+    def setTv(self, tv):
         self._tv = tv
 
-    def getTV(self):
-        return self.tv
+    def getTv(self):
+        return self._tv
